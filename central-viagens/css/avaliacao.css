@@ -1,0 +1,38 @@
+.avaliacao-container {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.avaliacao-container article header p {
+  font-size: 16px;
+  line-height: 28px;
+}
+.avaliacao-container footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 24px;
+  margin-top: 8px;
+}
+.avaliacao-container footer .nome-container h4 {
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: var(--title-weight);
+  margin: 0 0 8px;
+}
+.avaliacao-container footer .nome-container .estrela-container .star {
+  font-size: 32px;
+  color: var(--secondary-color);
+  line-height: 32px;
+}
+
+.avaliacao-container footer img {
+  font-size: 16px;
+  line-height: 28px;
+}
+
+@media screen and (min-width: 1440px) {
+  .avaliacao-container {
+    flex-direction: row;
+  }
+}

@@ -1,0 +1,76 @@
+.pagamentos .img-conteudo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  height: 460px;
+  margin-top: 24px;
+  width: 100%;
+}
+.pagamentos .conteudo-container .img-conteudo .img-mala {
+  background: url(../img/mala-mobile.png) no-repeat;
+  background-size: cover;
+}
+.pagamentos .conteudo-container .img-conteudo .img-passaport {
+  background: url(../img/passaport-mobile.png) no-repeat;
+  background-size: cover;
+}
+.pagamentos .conteudo-container .img-conteudo .img-pessoas {
+  background: url(../img/pessoas-mobile.png) no-repeat;
+  background-size: cover;
+}
+.pagamentos .conteudo-container .img-conteudo .img-predio {
+  background: url(../img/japao-predio-mobile.png) no-repeat;
+  background-size: cover;
+}
+.pagamentos .conteudo-container .img-conteudo .img-rua {
+  background: url(../img/japao-rua-mobile.png) no-repeat;
+  background-size: cover;
+}
+.pagamentos .conteudo-container .img-conteudo .img-pessoa {
+  background: url(../img/japao-pessoa-mobile.png) no-repeat;
+  background-size: cover;
+}
+
+.pagamentos .img-conteudo .colspan {
+  grid-column: span 2;
+}
+
+@media screen and (min-width: 768px) {
+  .pagamentos .conteudo-container .img-conteudo .img-mala {
+    background: url(../img/mala-tablet.png) no-repeat;
+    background-size: cover;
+  }
+  .pagamentos .conteudo-container .img-conteudo .img-passaport {
+    background: url(../img/passaport-tablet.png) no-repeat;
+    background-size: cover;
+  }
+  .pagamentos .conteudo-container .img-conteudo .img-pessoas {
+    background: url(../img/pessoas-tablet.png) no-repeat;
+    background-size: cover;
+  }
+  .pagamentos .conteudo-container .img-conteudo .img-predio {
+    background: url(../img/japao-predio-tablet.png) no-repeat;
+    background-size: cover;
+  }
+  .pagamentos .conteudo-container .img-conteudo .img-rua {
+    background: url(../img/japao-rua-tablet.png) no-repeat;
+    background-size: cover;
+  }
+  .pagamentos .conteudo-container .img-conteudo .img-pessoa {
+    background: url(../img/japao-pessoa-tablet.png) no-repeat;
+    background-size: cover;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .pagamentos .conteudo-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .pagamentos .conteudo-container .text-conteudo {
+    width: 360px;
+  }
+  .pagamentos .conteudo-container .img-conteudo {
+    width: 790px;
+    margin: 0;
+  }
+}

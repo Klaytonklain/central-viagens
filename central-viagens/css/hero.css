@@ -1,0 +1,134 @@
+.hero .hero-img,
+.bottom-hero .hero-img,
+.postagem-hero .hero-img {
+  height: 400px;
+  width: 100%;
+}
+.hero .hero-img {
+  background: url(../img/banner-home-mobile.jpg) no-repeat;
+  background-size: cover;
+}
+.bottom-hero .hero-img {
+  background: url(../img/rodape-mobile.png) no-repeat;
+  background-size: cover;
+}
+.postagem-hero .hero-img {
+  background: url(../img/pacotes-rodape-mobile.png) no-repeat;
+  background-size: cover;
+}
+
+.hero h2 {
+  padding: 88px 24px;
+  margin: 0;
+  font-weight: var(--text-weight);
+  font-size: 20px;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.pacotes-de-viagem.hero {
+  margin-bottom: 80px;
+}
+
+.pacotes-de-viagem .hero-img {
+  height: 480px;
+  background: url(../img/pacotes-home-mobile.png) no-repeat;
+  background-size: cover;
+}
+.pacotes-de-viagem .hero-texto {
+  padding: 65px 24px;
+}
+.pacotes-de-viagem .hero-texto h1 {
+  font-size: 40px;
+  color: var(--text-secondary-color);
+  font-weight: var(--title-weight);
+}
+.pacotes-de-viagem .hero-texto hr {
+  width: 180px;
+  height: 4px;
+  background-color: var(--secondary-color);
+  border: none;
+  margin: 16px 0 32px;
+}
+.pacotes-de-viagem .hero-texto p {
+  font-size: 20px;
+  line-height: 32px;
+  color: var(--text-secondary-color);
+  font-weight: var(--text-weight);
+}
+
+@media screen and (min-width: 768px) {
+  .hero .hero-img {
+    height: 620px;
+    background: url(../img/banner-home-tablet.jpg) no-repeat;
+    background-size: cover;
+  }
+  .bottom-hero .hero-img {
+    height: 400px;
+    background: url(../img/rodape-tablet.png) no-repeat;
+    background-size: cover;
+  }
+  .postagem-hero .hero-img {
+    height: 400px;
+    background: url(../img/pacotes-rodape-tablet.png) no-repeat;
+    background-size: cover;
+  }
+
+  .hero h2 {
+    padding: 88px 60px;
+    font-size: 32px;
+  }
+  .pacotes-de-viagem .hero-texto {
+    padding: 210px 70px 107px;
+  }
+  .pacotes-de-viagem .hero-texto p {
+    font-size: 32px;
+    line-height: 48px;
+  }
+  .pacotes-de-viagem .hero-img {
+    background: url(../img/pacotes-home-tablet.png) no-repeat;
+    background-size: cover;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .hero .hero-img {
+    background: url(../img/banner-home-desktop.jpg) no-repeat;
+    background-size: cover;
+  }
+  .bottom-hero .hero-img {
+    height: 600px;
+    background: url(../img/rodape-desktop.png) no-repeat;
+    background-size: cover;
+  }
+  .hero h2 {
+    padding: 88px 120px;
+  }
+  .pacotes-de-viagem .hero-img {
+    background: url(../img/pacotes-home-desktop.png) no-repeat;
+    background-size: cover;
+  }
+
+  .pacotes-de-viagem .hero-texto {
+    padding: 150px 120px 170px;
+    margin: 0 auto;
+  }
+  .pacotes-de-viagem .hero-texto{
+    width: 570px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .pacotes-de-viagem .hero-texto {
+    width: 1200px;
+  }
+}
+@media screen and (min-width: 1920px) {
+  .hero h2 {
+    padding: 88px 160px;
+  }
+  .bottom-hero .hero-img {
+    height: 800px;
+    background: url(../img/rodape-desktop.png) no-repeat;
+    background-size: cover;
+  }
+}
